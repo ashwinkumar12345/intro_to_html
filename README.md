@@ -9,6 +9,8 @@
 **[Lists and Comments](#lists)**<br>
 **[Loading Images](#loadingimages)**<br>
 **[Adding Links](#links)**<br>
+**[Adding Images as Links](#imglinks)**<br>
+**[Adding a Mailto Link](#mailto)**<br>
 
 <a name="basics"></a>
 > ## Basics
@@ -117,3 +119,32 @@ You also need to add the text that is to be seen
 ```
 You can nest links in lists as well
 
+<a name="imglinks"></a>
+> ## Adding Images as Links
+
+You can convert an image to a link as follows
+
+```
+<a href="http://www.google.com">
+   <img src="http://.....jpg" alt="description of the image"/></a>
+```
+
+<a name="mailto"></a>
+> ## Adding a Mailto Link
+
+You can use a *mailto* attribute
+
+```
+<a href="mailto:yourname@gmail.com">Email me</a>
+```
+
+<a name="div"></a>
+> ## Adding a Div
+
+Used to divide up your page into logical chunks
+
+```
+<div>
+  <p></p>
+</div>
+```
