@@ -7,6 +7,7 @@ To fully understand the difference between REST and SOAP, it is important to und
 **[Basics](#basics)**<br>
 **[What does HTML look like?](#HTMLlooklike)**<br>
 **[Writing a new HTML](#WritinganewHTML)**<br>
+**[Intro to Lists and Comments](#lists)**<br>
 
 <a name="basics"></a>
 > ## Basics
@@ -39,13 +40,54 @@ Boilerplate HTML code:
 </html>
 ```
 <a name="WritinganewHTML"></a>
-> ## Writing a new HTML
+> ## Writing our first HTML
 
+Open up jsbin.com and type up in the following HTML code.
 
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<p>Hello, <strong>World!</strong> or <em>World!</em></p>
+</body>
+</html>
+```
 
+You have six different types of headers starting from h1. The headers h1 to h6 get ascendingly smaller
+For emphasis, you can use the strong (bold) or em (italics) tag
+Always remember to close of all your tags
 
+<a name="lists"></a>
+> ## Intro to Lists and Comments
 
+List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe.
+Comments are for yourself and all for other developers. it's not rendered by the browser
+You can also nest one list within a another list
 
+```
+<body>
+<!--This is an ordered list -->
+  <ol>
+   <li>Step 1</li>
+   <li>Step 2</li>
+   <ul>
+     <li>Sub bullets</li>
+   </ul>
+  </ol>
+<!--This is an unordered list -->
+  <ul>
+    <li>Bullet 1</li>
+    <li>Bullet 2</li>
+  </ul>
+</body>
+```
 
 
 
