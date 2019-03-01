@@ -70,9 +70,10 @@ Always remember to close of all your tags
 <a name="lists"></a>
 > ## Lists and Comments
 
-List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe.
+List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe. You can also nest one list within a another list
+
 Comments are for yourself and all for other developers. it's not rendered by the browser
-You can also nest one list within a another list
+
 
 ```
 <body>
