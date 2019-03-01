@@ -6,7 +6,9 @@
 **[Basics](#basics)**<br>
 **[What does HTML look like?](#HTMLlooklike)**<br>
 **[Writing a new HTML](#WritinganewHTML)**<br>
-**[Intro to Lists and Comments](#lists)**<br>
+**[Lists and Comments](#lists)**<br>
+**[Loading Images](#loadingimages)**<br>
+**[Adding Links](#links)**<br>
 
 <a name="basics"></a>
 > ## Basics
@@ -64,7 +66,7 @@ For emphasis, you can use the strong (bold) or em (italics) tag
 Always remember to close of all your tags
 
 <a name="lists"></a>
-> ## Intro to Lists and Comments
+> ## Lists and Comments
 
 List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe.
 Comments are for yourself and all for other developers. it's not rendered by the browser
@@ -87,8 +89,31 @@ You can also nest one list within a another list
   </ul>
 </body>
 ```
+<a name="loadingimages"></a>
+> ## Loading Images
 
+You can use an *img* tag to load an image.
+It has an attribute *src* that holds the url of the image
+You do not need a closing img tag as it is not wrapping another element
+You can also add an alt attribute that loads if your image fails to load or if somebody is using an assistive device such as a screen reader
 
+```
+<body>
+  <img src="http://.....jpg" alt="description of the image"/>
+</body>
+```
+You can nest images in lists as well
 
+<a name="links"></a>
+> ## Adding Links
 
+You can use an *a* tag to load an image.
+It has an attribute *href* that holds the url of the image
+The url can be an absolute or relative path 
+You also need to add the text that is to be seen 
+
+```
+<a href="http://www.google.com">Google homepage</a>
+```
+You can nest links in lists as well
 
