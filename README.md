@@ -1,6 +1,5 @@
 # Introduction to HTML
 
-To fully understand the difference between REST and SOAP, it is important to understand what an API is and how it works, how to use HTTP and perform REST and SOAP operations.
 
 > ## Contents
 
