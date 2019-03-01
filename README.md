@@ -5,7 +5,7 @@
 
 **[Basics](#basics)**<br>
 **[What does HTML look like?](#HTMLlooklike)**<br>
-**[Writing a new HTML](#WritinganewHTML)**<br>
+**[Writing HTML](#WritinganewHTML)**<br>
 **[Lists and Comments](#lists)**<br>
 **[Loading Images](#loadingimages)**<br>
 **[Adding Links](#links)**<br>
@@ -43,7 +43,7 @@ Boilerplate HTML code:
 </html>
 ```
 <a name="WritinganewHTML"></a>
-> ## Writing our first HTML
+> ## Writing HTML
 
 Open up jsbin.com and type up in the following HTML code.
 
