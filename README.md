@@ -6,11 +6,11 @@
 **[Basics](#basics)**<br>
 **[What does HTML look like?](#HTMLlooklike)**<br>
 **[Writing HTML](#WritinganewHTML)**<br>
-**[Lists and Comments](#lists)**<br>
-**[Loading Images](#loadingimages)**<br>
-**[Adding Links](#links)**<br>
-**[Adding Images as Links](#imglinks)**<br>
-**[Adding a Mailto Link](#mailto)**<br>
+**[Lists and comments](#lists)**<br>
+**[Loading images](#loadingimages)**<br>
+**[Adding links](#links)**<br>
+**[Adding images as links](#imglinks)**<br>
+**[Adding a mailto link](#mailto)**<br>
 
 <a name="basics"></a>
 > ## What is HTML?
@@ -138,7 +138,7 @@ You can convert an image to a link as follows:
 ```
 
 <a name="mailto"></a>
-> ## Adding a Mailto Link
+> ## Adding a mailto link
 
 You can use a `mailto` attribute:
 
