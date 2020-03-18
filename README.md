@@ -49,7 +49,7 @@ Boilerplate HTML code:
 <a name="WritinganewHTML"></a>
 > ## Writing HTML
 
-Open up `jsbin.com` and type up in the following HTML code.
+Open up `jsbin.com` and type up in the following HTML code:
 
 ```
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ Always remember to close of all your tags.
 
 List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe. You can also nest one list within a another list
 
-Comments are for yourself and for other developers. it's not rendered by the browser
+Comments are for yourself and for other developers. It's not rendered by the browser:
 
 ```
 <body>
@@ -96,6 +96,7 @@ Comments are for yourself and for other developers. it's not rendered by the bro
   </ul>
 </body>
 ```
+
 <a name="loadingimages"></a>
 > ## Loading images
 
@@ -123,7 +124,8 @@ You also need to add the text that's to be seen.
 ```
 <a href="http://www.google.com">Google homepage</a>
 ```
-You can nest links in lists as well
+
+You can nest links in lists as well.
 
 <a name="imglinks"></a>
 > ## Adding images as links
