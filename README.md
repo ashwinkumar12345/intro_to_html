@@ -13,10 +13,13 @@
 **[Adding a Mailto Link](#mailto)**<br>
 
 <a name="basics"></a>
-> ## Basics
+> ## What is HTML?
 
-What is HTML? HTML is an acronym that stands for Hypertext Markup Language. It's a standard markup language used to create web pages.
-It tells your browser how to render web pages. A markup language is a language designed for processing the presentation of the text. You markup your text with tags and browser interprets those tags to display the text. 
+HTML stands for Hypertext Markup Language. It's a standard markup language used to create web pages.
+
+It tells your browser how to render web pages. A markup language is a language designed for processing the presentation of the text. 
+
+You markup your text with tags and your browser interprets those tags to display the text. 
 
 <a name="HTMLlooklike"></a>
 > ## What does HTML look like?
@@ -27,7 +30,8 @@ For example, you want to represent some text and you want that text to be repres
 ```html
 <p>Hello, World!</p>
 ```
-You are marking up regular text with tags into these elements. The browser then interprets these elements to show you what you are used to on a web page.
+
+You are marking up regular text with tags into these elements. The browser then interprets these elements to show you what you expect on a web page.
 
 Boilerplate HTML code:
 
@@ -45,7 +49,7 @@ Boilerplate HTML code:
 <a name="WritinganewHTML"></a>
 > ## Writing HTML
 
-Open up jsbin.com and type up in the following HTML code.
+Open up `jsbin.com` and type up in the following HTML code.
 
 ```
 <!DOCTYPE html>
@@ -63,17 +67,17 @@ Open up jsbin.com and type up in the following HTML code.
 </html>
 ```
 
-You have six different types of headers starting from h1. The headers h1 to h6 get ascendingly smaller
-For emphasis, you can use the strong (bold) or em (italics) tag
-Always remember to close of all your tags
+You have six different types of headers starting from h1. The headers h1 to h6 get ascendingly smaller.
+
+For emphasis, you can use strong (bold) or em (italics) tags.
+Always remember to close of all your tags.
 
 <a name="lists"></a>
-> ## Lists and Comments
+> ## Lists and comments
 
 List is a list of things. You can have an ordered or unordered list. For example, you can use an unordered list for ingrediants of a recipe and an ordered list for the actual directions of the recipe. You can also nest one list within a another list
 
 Comments are for yourself and for other developers. it's not rendered by the browser
-
 
 ```
 <body>
@@ -93,27 +97,28 @@ Comments are for yourself and for other developers. it's not rendered by the bro
 </body>
 ```
 <a name="loadingimages"></a>
-> ## Loading Images
+> ## Loading images
 
-You can use an *img* tag to load an image.
-It has an attribute *src* that holds the url of the image
-You do not need a closing img tag as it is not wrapping another element
-You can also add an alt attribute that loads if your image fails to load or if somebody is using an assistive device such as a screen reader
+You can use an `img` tag to load an image.
+It has an attribute `src` that holds the url of the image.
+In this case, you don't need a closing `img` tag as it's not wrapping another element.
+You can also add an `alt` attribute that loads if your image fails to load or if somebody is using an assistive device such as a screen reader.
 
 ```
 <body>
   <img src="http://.....jpg" alt="description of the image"/>
 </body>
 ```
-You can nest images in lists as well
+
+You can nest images in lists as well.
 
 <a name="links"></a>
-> ## Adding Links
+> ## Adding links
 
-You can use an *a* tag to load an image.
-It has an attribute *href* that holds the url of the image
-The url can be an absolute or relative path 
-You also need to add the text that is to be seen 
+You can use an `a` tag to load an image.
+It has an attribute `href` that holds the url of the image.
+The url can be an absolute or relative path. 
+You also need to add the text that's to be seen. 
 
 ```
 <a href="http://www.google.com">Google homepage</a>
@@ -121,9 +126,9 @@ You also need to add the text that is to be seen
 You can nest links in lists as well
 
 <a name="imglinks"></a>
-> ## Adding Images as Links
+> ## Adding images as links
 
-You can convert an image to a link as follows
+You can convert an image to a link as follows:
 
 ```
 <a href="http://www.google.com">
@@ -133,16 +138,16 @@ You can convert an image to a link as follows
 <a name="mailto"></a>
 > ## Adding a Mailto Link
 
-You can use a *mailto* attribute
+You can use a `mailto` attribute:
 
 ```
 <a href="mailto:yourname@gmail.com">Email me</a>
 ```
 
 <a name="div"></a>
-> ## Adding a Div
+> ## Adding a div
 
-Used to divide up your page into logical chunks
+Used to divide up your page into logical chunks:
 
 ```
 <div>
